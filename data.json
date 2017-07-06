@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "task": "tidur",
+    "status": false
+  },
+  {
+    "task": "makan",
+    "status": true
+  },
+  {
+    "task": "main lol",
+    "status": false
+  },
+  {
+    "task": "pergi jauh",
+    "status": true
+  }
+]
