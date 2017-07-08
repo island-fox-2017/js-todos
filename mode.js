@@ -64,7 +64,7 @@ class Mode {
 
   sortCreate(param) {
     var reed = JSON.parse(fs.readFileSync('data.json', 'utf8'))
-    if (param == 'asc') {
+    if (param == 'asc' || param == null) {
       let asc = reed.sort((a, b) => new Date(b.createdAt) < new Date(a.createdAt))
       fs.writeFileSync('data.json', JSON.stringify(asc, null, 2))
     }
@@ -84,7 +84,7 @@ class Mode {
 
   sortComplete(param) {
     var reed = JSON.parse(fs.readFileSync('data.json', 'utf8'))
-    if (param == 'asc') {
+    if (param == 'asc' || param == null) {
       let ascc = reed.sort((a, b) => new Date(b.completedAt) < new Date(a.completedAt))
       fs.writeFileSync('data.json', JSON.stringify(ascc, null, 2))
     }
@@ -107,7 +107,12 @@ class Mode {
     var num = parseInt(data[0])
     var tag = data.splice(1)
     for (var i = 0; i < tag.length; i++) {
-      reed[num - 1].tag.push(tag[i])
+      if (reed[num - 1].tag.includes(data) === true) {
+        reed[num - 1].tag.push(tag[i])
+      }
+      else {
+        console.log(`${reed[num-1].task} is already tagged with ${tag}`);
+      }
     }
     fs.writeFileSync('data.json', JSON.stringify(reed, null, 2))
   }
