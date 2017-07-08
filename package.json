@@ -1,0 +1,19 @@
+{
+  "name": "js-todos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/island-fox-2017/js-todos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/island-fox-2017/js-todos/issues"
+  },
+  "homepage": "https://github.com/island-fox-2017/js-todos#readme"
+}
