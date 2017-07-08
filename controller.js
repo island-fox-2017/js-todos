@@ -39,8 +39,14 @@ class Controller {
       case 'uncomplete':
         this.model.uncomp(param.splice(1))
         break;
+      case 'tag':
+        this.model.setTag(param.splice(1))
+        break;
+      case 'filter:':
+        this.model.filter(param.splice(1))
+        break;
       default:
-        console.log('ra ono datane');
+        console.log('WRONG PARAMETER, TYPE node todo.js help FOR HELP');
     }
   }
 }

@@ -1,26 +1,32 @@
 [
   {
-    "task": "makan",
-    "status": "false",
-    "createdAt": "Sat, 08 Jul 2017 12:54:01 GMT",
-    "completedAt": false
-  },
-  {
-    "task": "minum",
+    "task": "1",
     "status": true,
-    "createdAt": "Sat, 08 Jul 2017 12:54:03 GMT",
-    "completedAt": "Sat, 08 Jul 2017 12:54:21 GMT"
+    "createdAt": "Sat, 08 Jul 2017 14:39:51 GMT",
+    "completedAt": "Sat, 08 Jul 2017 14:40:09 GMT",
+    "tag": [
+      "a"
+    ]
   },
   {
-    "task": "tidur",
+    "task": "2",
     "status": true,
-    "createdAt": "Sat, 08 Jul 2017 12:54:07 GMT",
-    "completedAt": "Sat, 08 Jul 2017 12:54:28 GMT"
+    "createdAt": "Sat, 08 Jul 2017 14:39:53 GMT",
+    "completedAt": "Sat, 08 Jul 2017 14:40:10 GMT",
+    "tag": [
+      "a",
+      "b"
+    ]
   },
   {
-    "task": "napas",
-    "status": "false",
-    "createdAt": "Sat, 08 Jul 2017 12:54:10 GMT",
-    "completedAt": false
+    "task": "3",
+    "status": true,
+    "createdAt": "Sat, 08 Jul 2017 14:39:54 GMT",
+    "completedAt": "Sat, 08 Jul 2017 14:40:08 GMT",
+    "tag": [
+      "a",
+      "b",
+      "c"
+    ]
   }
 ]
