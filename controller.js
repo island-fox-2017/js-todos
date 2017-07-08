@@ -18,6 +18,12 @@ class Controller {
       case 'list':
         this.model.read()
         break;
+      case 'list:outstanding':
+        this.model.sortCreate(param.splice(1))
+        break;
+      case 'list:completed':
+        this.model.sortComplete(param.splice(1))
+        break;
       case 'add':
         this.model.write(param.splice(1))
         break;

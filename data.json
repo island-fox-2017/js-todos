@@ -1,18 +1,26 @@
 [
   {
-    "task": "tidur",
-    "status": false
-  },
-  {
     "task": "makan",
-    "status": true
+    "status": "false",
+    "createdAt": "Sat, 08 Jul 2017 12:54:01 GMT",
+    "completedAt": false
   },
   {
-    "task": "main lol",
-    "status": false
+    "task": "minum",
+    "status": true,
+    "createdAt": "Sat, 08 Jul 2017 12:54:03 GMT",
+    "completedAt": "Sat, 08 Jul 2017 12:54:21 GMT"
   },
   {
-    "task": "pergi jauh",
-    "status": true
+    "task": "tidur",
+    "status": true,
+    "createdAt": "Sat, 08 Jul 2017 12:54:07 GMT",
+    "completedAt": "Sat, 08 Jul 2017 12:54:28 GMT"
+  },
+  {
+    "task": "napas",
+    "status": "false",
+    "createdAt": "Sat, 08 Jul 2017 12:54:10 GMT",
+    "completedAt": false
   }
 ]
