@@ -117,10 +117,10 @@ class Mode {
     for (var i = 0; i < reed.length; i++) {
       if (reed[i].tag.includes(data.join())) {
         if (reed[i].status == true) {
-          console.log(`${i+1}. [X] ${reed[i].task} [${reed[i].tag}]`)
+          console.log(`${i+1}. [X] ${reed[i].task} [${reed[i].tag.join(', ')}]`)
         }
         else {
-          console.log(`${i+1}. [ ] ${reed[i].task} [${reed[i].tag}]`)
+          console.log(`${i+1}. [ ] ${reed[i].task} [${reed[i].tag.join(', ')}]`)
         }
       }
     }
