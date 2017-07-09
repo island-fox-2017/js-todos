@@ -1,1 +1,1 @@
-[]
+[{"id":1,"task":"pergi ke pasar","status":"uncomplete","created_at":"Sun, 09 Jul 2017 01:17:45 GMT","tag":[],"completed_at":" "},{"id":2,"task":"beli buah","status":"complete","created_at":"Sun, 09 Jul 2017 01:17:52 GMT","tag":["pear","mangga"],"completed_at":"Sun, 09 Jul 2017 01:19:05 GMT"},{"id":3,"task":"bikin kue","status":"uncomplete","created_at":"Sun, 09 Jul 2017 02:28:20 GMT","tag":[],"completed_at":" "}]
