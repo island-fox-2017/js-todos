@@ -21,6 +21,8 @@ class Model{
     obj['task'] = value;
     obj['status'] = false;
     obj['createAt'] = new Date();
+    obj['tag'] = [];
+    obj['completeAt'] = false;
 
     this.data.push(obj);
   }
@@ -43,10 +45,19 @@ class Model{
 
   completeTask(id){
     this.data[id].status = true;
+    this.data[id].completeAt = new Date();
   }
 
   uncompleteTask(id){
     this.data[id].status = false;
+    this.data[id].completeAt = false;
+  }
+
+  inputTag(id,tags){
+    for(let i = 0; i < tags.length; i++)
+    {
+      this.data[id-1].tag.push(tags[i]);
+    }
   }
 
   writeData(){

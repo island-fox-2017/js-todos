@@ -46,6 +46,26 @@ class Controller{
     this.view.taskDetail(id, data);
   }
 
+  callOutstanding(param){
+    let data = this.model.parseFile();
+    this.view.viewDataDate(data, param);
+  }
+
+  callTagData(id, tags){
+    this.model.inputTag(id, tags);
+    this.model.writeData();
+  }
+
+  callCompleteList(){
+    let data = this.model.parseFile();
+    this.view.viewCompleteList(data);
+  }
+
+  callTagDataList(key){
+    let data = this.model.parseFile();
+    this.view.viewTaggedData(key, data);
+  }
+
   callHelp(){
     this.view.help();
   }
