@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "id": 1,
+    "task": "adad aadasdad qwdasdasdasdasdasda",
+    "completed": false,
+    "created_at": "2017-07-08T13:02:29.503Z",
+    "tags": []
+  },
+  {
+    "id": 2,
+    "task": "fadfafasdasdasdasd",
+    "completed": true,
+    "created_at": "2017-07-08T13:04:51.596Z",
+    "tags": [
+      "makan"
+    ],
+    "completed_at": "2017-07-09T07:12:43.526Z"
+  },
+  {
+    "id": 3,
+    "task": "Makan ayam pedes",
+    "completed": true,
+    "created_at": "2017-07-08T14:21:22.682Z",
+    "tags": [
+      "makan",
+      "laper"
+    ],
+    "completed_at": "2017-07-09T13:16:32.830Z"
+  },
+  {
+    "id": 4,
+    "task": "Minum sambel",
+    "completed": true,
+    "created_at": "2017-07-08T14:21:34.801Z",
+    "tags": [
+      "pedes",
+      "makan"
+    ],
+    "completed_at": "2017-07-09T07:12:20.561Z"
+  },
+  {
+    "id": 5,
+    "task": "Tanya sukmo",
+    "completed": false,
+    "created_at": "2017-07-09T13:03:56.637Z",
+    "tags": []
+  }
+]
