@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "task": "Belajar",
+    "complete": true,
+    "time_created": "2017-07-09T08:23:17.401Z",
+    "time_completed": "2017-07-09T09:45:18.499Z",
+    "tag": []
+  },
+  {
+    "task": "Tidur",
+    "complete": true,
+    "time_created": "2017-07-09T08:23:20.998Z",
+    "time_completed": "2017-07-09T08:23:53.531Z",
+    "tag": [
+      "habit",
+      "sehari"
+    ]
+  },
+  {
+    "task": "Makan",
+    "complete": false,
+    "time_created": "2017-07-09T08:23:25.768Z",
+    "time_completed": false,
+    "tag": [
+      "habit",
+      "sehari"
+    ]
+  },
+  {
+    "task": "Kerjain Tugas",
+    "complete": true,
+    "time_created": "2017-07-09T08:23:32.493Z",
+    "time_completed": "2017-07-09T08:23:56.064Z",
+    "tag": [
+      "Habit",
+      "Study"
+    ]
+  },
+  {
+    "task": "Mengerjakan todo list",
+    "complete": true,
+    "time_created": "2017-07-09T09:41:16.236Z",
+    "time_completed": "2017-07-09T09:50:14.823Z",
+    "tag": []
+  }
+]
