@@ -1,11 +1,13 @@
 [
   {
-    "task": "test",
+    "task": "1",
     "status": false,
-    "createdAt": "Sat, 08 Jul 2017 15:06:48 GMT",
-    "completedAt": false,
+    "createdAt": "Sat, 08 Jul 2017 14:39:51 GMT",
+    "completedAt": "Sat, 08 Jul 2017 15:08:12 GMT",
     "tag": [
-      "a"
+      "a",
+      "b",
+      "f"
     ]
   },
   {
@@ -20,10 +22,10 @@
     ]
   },
   {
-    "task": "1",
+    "task": "test",
     "status": false,
-    "createdAt": "Sat, 08 Jul 2017 14:39:51 GMT",
-    "completedAt": "Sat, 08 Jul 2017 15:08:12 GMT",
+    "createdAt": "Sat, 08 Jul 2017 15:06:48 GMT",
+    "completedAt": false,
     "tag": [
       "a"
     ]
