@@ -138,9 +138,9 @@ class Controller {
     }
     data = done
     switch(order){
-      case 'asc': data.sort((a,b) => new Date(b.completed_at) < new Date(a.completed_at));break
-      case 'dsc': data.sort((a,b) => new Date(a.completed_at) < new Date(b.completed_at));break
-      default: data.sort((a,b) => new Date(b.completed_at) < new Date(a.completed_at));break
+      case 'asc': data.sort((a,b) => new Date(a.completed_at) < new Date(b.completed_at));break
+      case 'dsc': data.sort((a,b) => new Date(b.completed_at) < new Date(a.completed_at));break
+      default: data.sort((a,b) => new Date(a.completed_at) < new Date(b.completed_at));break
     }
     if(data.length === 0){
       this.view.kosongcom()
