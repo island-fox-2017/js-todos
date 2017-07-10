@@ -106,14 +106,14 @@ class Mode {
     var reed = JSON.parse(fs.readFileSync('data.json', 'utf8'))
     var num = parseInt(data[0])
     var tag = data.splice(1)
-    // for (var i = 0; i < tag.length; i++) {
-    //   if (reed[num - 1].tag.includes(data) === true) {
-    reed[num - 1].tag.push(tag.join())
-    //   }
-    //   else {
-    //     console.log(`${reed[num-1].task} is already tagged with ${tag}`);
-    //   }
-    // }
+    for (var i = 0; i < tag.length; i++) {
+      if (reed[num - 1].tag.includes(tag.join()) === false) {
+        reed[num - 1].tag.push(tag.join())
+      }
+      else {
+        console.log(`${reed[num-1].task} is already tagged with ${tag}`);
+      }
+    }
     fs.writeFileSync('data.json', JSON.stringify(reed, null, 2))
   }
 
