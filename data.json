@@ -1,0 +1,53 @@
+[
+   {
+      "id": 1,
+      "task": "Jogging",
+      "completed": true,
+      "created_at": "2017-06-02T06:37:01.446Z",
+      "tags": [
+         "routine"
+      ],
+      "completed_at": "2017-07-05T14:32:21.246Z"
+   },
+   {
+      "id": 2,
+      "task": "Meeting",
+      "completed": false,
+      "created_at": "2017-06-03T09:30:00.446Z",
+      "tags": [],
+      "completed_at": "2017-07-05T14:27:22.838Z"
+   },
+   {
+      "id": 3,
+      "task": "Stand Up Meeting",
+      "completed": true,
+      "created_at": "2017-06-04T13:42:45.334Z",
+      "tags": [],
+      "completed_at": "2017-07-05T14:32:23.684Z"
+   },
+   {
+      "id": 4,
+      "task": "belajar live coding",
+      "completed": true,
+      "created_at": "2017-07-05T14:11:19.885Z",
+      "tags": [
+         "hacktiv8",
+         "routine"
+      ],
+      "completed_at": "2017-07-05T14:32:27.176Z"
+   },
+   {
+      "id": 5,
+      "task": "bikin aplikasi",
+      "completed": false,
+      "created_at": "2017-07-06T15:02:30.144Z",
+      "tags": []
+   },
+   {
+      "id": 6,
+      "task": "denger musik",
+      "completed": false,
+      "created_at": "2017-07-08T07:44:43.554Z",
+      "tags": []
+   }
+]

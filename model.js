@@ -1,18 +1,20 @@
-'use strict'
+"use strict"
 
 const fs = require('fs')
 
-class Model{
-  constructor(){
+class Model {
+  constructor() {
+
+  }
+  rData() { //r for read
+    let parseData = JSON.parse(fs.readFileSync('data.json', "utf8"));
+    return parseData
   }
 
-  readFile(){
-    let file = JSON.parse(fs.readFileSync('data.json', 'utf8')) //JSON.parse mengambil data yg diurai sepaket json
-    return file
-  }
+  wData(data) { //w for write
+    fs.writeFileSync('data.json', JSON.stringify(data, null, 3));
   
-  writeFile(data){
-    fs.writeFileSync('data.json', JSON.stringify(data, null, 3))
   }
-
 }
+
+module.exports = Model
